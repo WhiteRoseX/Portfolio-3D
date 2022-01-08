@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+body{
+  font-family: 'Prompt', sans-serif;
+  overflow-x: hidden;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -99;
+}
+
+/* main{
+  /* position: absolute; 
+} */
+
+nav{
+  background-image: linear-gradient(to right, #A770EF 0%, #CF8BF3  51%, #A770EF  100%);
+  color: white;
+  opacity: 0.75;
+  position: fixed;
+}
+
+#bg-perso-color{
+  background-image: linear-gradient(to right, #A770EF 0%, #CF8BF3  51%, #A770EF  100%);
+}
+
+#bg-perso-color2{
+  background-color: #9921e8;
+  background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
+}
