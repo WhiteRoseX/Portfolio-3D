@@ -51,10 +51,10 @@ function addStars() {
 }
 Array(200).fill().forEach(addStars)
 
-const spaceTexture = new THREE.TextureLoader().load("./galaxie.jpeg")
+const spaceTexture = new THREE.TextureLoader().load("galaxie.jpeg")
 scene.background = spaceTexture;
 
-const nexus = new THREE.TextureLoader().load("./nexus.jpeg")
+// const nexus = new THREE.TextureLoader().load("nexus.jpeg")
 
 //carré
 // const Carré = new THREE.Mesh(
